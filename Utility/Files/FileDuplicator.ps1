@@ -1,5 +1,5 @@
 while ($true) {
-
+Get-Variable | Remove-Variable -Force -ErrorAction SilentlyContinue
 Clear-Host
 
 Write-Host "=====================================" -ForegroundColor Cyan

@@ -4,5 +4,6 @@ powershell.exe -ExecutionPolicy Bypass -File "FullPath"
 
 2)Via CMD
 @echo off
+title tilename
 powershell -ExecutionPolicy Bypass -File "%~dp0Rename-Files-Interactive.ps1"
 pause
